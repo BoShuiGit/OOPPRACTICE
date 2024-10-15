@@ -10,5 +10,7 @@ public class App {
         PrintSlow.slowPrint("Please select one of the options.", 100);
 
         System.out.println("");
+
+        LibraryUser lbu = new LibraryUser(0, "jack", "asjflf");
     }
 }

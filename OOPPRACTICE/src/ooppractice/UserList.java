@@ -5,10 +5,14 @@ public class UserList {
 
     String password;
 
-    HashMap<LibraryUser, String> userList;
+    HashMap<String, LibraryUser> userList;
 
     public UserList(){
         this.userList = new HashMap<>();
+    }
+
+    public void createUser (LibraryUser user){
+        this.userList.put(user.getName(), user);
     }
 
 }
