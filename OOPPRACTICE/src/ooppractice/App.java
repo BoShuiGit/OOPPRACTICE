@@ -1,5 +1,5 @@
 
-package java;
+package ooppractice;
 
 import utility.PrintSlow;
 

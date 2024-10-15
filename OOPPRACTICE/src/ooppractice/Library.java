@@ -1,4 +1,4 @@
-package java;
+package ooppractice;
 
 public class Library {
 
